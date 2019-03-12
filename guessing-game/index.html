@@ -9,12 +9,12 @@
       console.log('the user\'s name is ' + userName);
 
       alert('Hello, ' + userName + '. I\'ll ask you a question');
-      var answerOne = prompt('Hey, ' + userName + '. Is Baal a great cat? Answer Y or N exactly.');
+      var answerOne = prompt('Hey, ' + userName + '. Is Baal a great cat?');
       console.log('the user\'s answer to question one was ' + answerOne +'.');
-      if (answerOne === 'Y') {
+      if (answerOne === 'Y' || answerOne === 'Yes' || answerOne === 'y' || answerOne ==='yes') {
         alert ('Correct. He\'s awesome');
       }
-      else if (answerOne === 'N') {
+      else if (answerOne === 'N' || 'no' || 'No' || 'n') {
         alert ('Clearly you\'ve never met him');
       }
       else {
