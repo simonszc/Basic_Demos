@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var userName = prompt('What is your name?');
+      console.log('the user\'s name is ' + userName);
+
+      alert('Hello, ' + userName + '. I\'ll ask you a question');
+      var answerOne = prompt('Hey, ' + userName + '. Is Baal a great cat? Answer Y or N exactly.');
+      console.log('the user\'s answer to question one was ' + answerOne +'.');
+      if (answerOne === 'Y') {
+        alert ('Correct. He\'s awesome');
+      }
+      else if (answerOne === 'N') {
+        alert ('Clearly you\'ve never met him');
+      }
+      else {
+        alert('You needed to answer Y or N');
+      }
+    </script>
+  </body>
+</html>
